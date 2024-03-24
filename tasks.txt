@@ -15,3 +15,4 @@ perehod number by date
 where from is perehod (what social network)
 counrtry of visiting
 
+lalla
