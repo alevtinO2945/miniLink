@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short Link Generator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="video-bg">
+            <source src="video/bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="content">
+            <!-- Create short link block -->
+            <div id="shorten-link">
+                <h2>Створення скороченого посилання</h2>
+                <input type="text" id="original-url" placeholder="Введіть посилання">
+                <button id="generate-btn">Згенерувати</button>
+            </div>
+
+            <!-- Short links table -->
+            <div id="shortened-links">
+                <h2>Вже скорочені посилання</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Оригінальне посилання</th>
+                            <th>Скорочене посилання</th>
+                            <th>Статистика</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Stat -->
+            <div id="statistics">
+                <h2>Статистика щодо скорочених посилань</h2>
+                <p>Загальна кількість переходів: <span id="total-clicks">0</span></p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script></script>
+</body>
+
+</html>

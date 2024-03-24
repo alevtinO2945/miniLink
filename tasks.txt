@@ -1,0 +1,17 @@
+1. cerate main.html (for link creation, watch created original and shorted links, how many times this link visited???)
+2. database(SQLite) for original and short links
+
+
+DB: 
+table "links" with 
+- link id
+- original link
+- short link
+
+
+Statistics info:
+total number of perehod
+perehod number by date
+where from is perehod (what social network)
+counrtry of visiting
+
